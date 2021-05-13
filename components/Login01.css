@@ -1,0 +1,48 @@
+
+
+                          @media screen and (max-width: 1024px) {
+                                    .row, .navbar {
+                                flex-direction: column;
+                                    padding-top: 8%;
+
+}
+
+.login{
+   margin-top: 1%;
+   margin-left: 100%;
+   align-content: center;
+    
+} 
+
+
+.img_login{
+
+    opacity: 100%;
+    width: 1650px;
+    margin-left: -1120px;
+    margin-top: 10px;
+
+
+}
+
+.logo_login{
+
+    margin-left: 140px;
+    width: 130px;
+    margin-top: 70px;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
