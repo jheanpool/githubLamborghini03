@@ -3,8 +3,7 @@ import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import terzo03 from '../terzo_galeria/terzo03.jpg';
 import { BrowserRouter as Router, Switch, Route, Link, useParams, useRouteMatch, BrowserRouter } from "react-router-dom";
-import './Icono_Cerrar_Millennio.css';
-
+import './Terzo.css';
 
 const useStyles = makeStyles((theme) =>
   createStyles({
@@ -27,28 +26,41 @@ export default function CenteredGrid() {
   return (
     <div className={classes.root}>
       <Grid container spacing={3}>
-        <Grid item xs={12} sm={12} md={12} lg={12}>
+       <Grid item xs={12} sm={12} md={12} lg={12}>
 
-          <div className="icono_cerrar_millennio">
+       <div className="terzo_galeria">
 
-            <Link to="/Millennio">
-              <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
-                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
-              </svg>
-            </Link>
+           <img src={terzo03} alt="terzo03" height="102%" width="102%"/>
 
-          </div>
+       </div>
 
-          <div className="terzo03">
+       <div className="flecha_der">
 
-            <img src={terzo03} alt="terzo03" height="102%" width="102%" />
+          <Link to="/Terzo04">
 
-          </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+            </svg>
 
-        </Grid>
+          </Link>
+
+        </div>
+
+        <div className="flecha_izq">
+
+          <Link to="/Terzo02">
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+          </svg>
+
+          </Link>
+
+        </div>
+
+         </Grid>
       </Grid>
     </div>
-
-  )
-}
+    
+    )
+  }  

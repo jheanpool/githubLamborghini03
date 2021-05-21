@@ -10,9 +10,10 @@
 
 .icono_cerrar_millennio{
 
-margin-top: 5px;
-margin-left: 322px;
-position: absolute;
+    margin-left: 84.4%;
+    margin-top: 3px;
+    z-index: 1000;
+       
      
 }
 

@@ -35,7 +35,7 @@ class Sing_In extends React.Component{
                         <input type='password' name='123456789' placeholder='Write a password.' required onChange={this.handleChange}/>
                         
                  
-                        <button onSubmit={this.handleSubmit}>Create</button>
+                        <button onSubmit={this.handleSubmit}>Login</button>
                  
 
                        <div className="icono_login">

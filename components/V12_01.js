@@ -2,9 +2,9 @@ import React from 'react';
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import v12_01 from '../v12_galeria/v12_01.jpg';
-import './Icono_Cerrar_Millennio.css';
+import './Icono_Cerrar_V12.css';
 import { BrowserRouter as Router, Switch, Route, Link, useParams, useRouteMatch, BrowserRouter } from "react-router-dom";
-
+import './V12.css';
 
 const useStyles = makeStyles((theme) =>
   createStyles({
@@ -29,21 +29,33 @@ export default function CenteredGrid() {
       <Grid container spacing={3}>
        <Grid item xs={12} sm={12} md={12} lg={12}>
 
-       <div className="icono_cerrar_millennio">
+       <div className="v12_galeria">
 
-        <Link to="/V12">
-          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
-            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
-            <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z" />
-          </svg>
-        </Link>
+           <img src={v12_01} alt="v12_01" height="102%" width="102%"/>
+
+       </div>
+
+       <div className="flecha_der">
+
+          <Link to="/V12_02">
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+            </svg>
+
+          </Link>
 
         </div>
 
-         
-       <div className="v12_galeria">
+        <div className="flecha_izq">
 
-          <img src={v12_01} alt="v12_01" height="102%" width="100%"/>
+          <Link to="/V12_03">
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+          </svg>
+
+          </Link>
 
         </div>
 
