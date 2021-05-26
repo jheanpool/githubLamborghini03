@@ -3,7 +3,8 @@ import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import terzo01 from '../terzo_galeria/terzo01.jpg';
 import { BrowserRouter as Router, Switch, Route, Link, useParams, useRouteMatch, BrowserRouter } from "react-router-dom";
-import './Terzo.css';
+import './Terzo_Movil.css';
+import './App.css';
 
 
 const useStyles = makeStyles((theme) =>
@@ -35,7 +36,7 @@ export default function CenteredGrid() {
 
        </div>
 
-       <div className="flecha_der">
+       <div className="flecha_der_terzo">
 
           <Link to="/Terzo02">
 
@@ -47,7 +48,7 @@ export default function CenteredGrid() {
 
         </div>
 
-        <div className="flecha_izq">
+        <div className="flecha_izq_terzo">
 
           <Link to="/Terzo06">
 

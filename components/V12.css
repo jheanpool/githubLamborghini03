@@ -23,20 +23,20 @@
 }
 
 
-.flecha_der{
+.flecha_der_v12{
 
     position: absolute;
     position: fixed;
-    margin-top: 21%;
+    margin-top: 19%;
     margin-left: 86.9%;
     cursor: pointer;
 }
 
-.flecha_izq{
+.flecha_izq_v12{
 
     position: absolute;
     position: fixed;
-    margin-top: 21%;
+    margin-top: 19%;
     margin-left: 1.5%;
     cursor: pointer;
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import millennio01 from '../video_gif/millennio01.gif';
-import './Terzo.css';
+import './App.css';
 
 const useStyles = makeStyles((theme) =>
   createStyles({

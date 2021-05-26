@@ -273,7 +273,7 @@ button{
 
 .img_login{
 
-    padding-top: 0%;
+    padding-top: 2%;
     width: 102%;
  
 }
@@ -303,6 +303,7 @@ button{
 .img_login{
 
 padding-left: 80%;
+padding-top: 0%;
     
 }
                                          
@@ -533,7 +534,6 @@ ul {
 
     padding-top: 10px;
 }
-
 
 
 
@@ -988,7 +988,7 @@ button {
 
 .v12_galeria{
 
-    margin-top: -190px;
+    margin-top: -155px;
     position: absolute;
      
 }
@@ -1003,7 +1003,7 @@ button {
 .v12_miniatura{
 
     margin-left: 70%;
-    margin-top: -2px;
+    margin-top: 33.5px;
      
 }
 
@@ -1039,7 +1039,7 @@ button {
 }
 
 
-.flecha_der{
+.flecha_der_v12{
 
     position: absolute;
     position: fixed;
@@ -1048,7 +1048,7 @@ button {
     cursor: pointer;
 }
 
-.flecha_izq{
+.flecha_izq_v12{
 
     position: absolute;
     position: fixed;
@@ -1061,7 +1061,7 @@ button {
 
     position: absolute;
     position: fixed;
-    margin-top: 20%;
+    margin-top: 21%;
     margin-left: 95%;
     cursor: pointer;
 }
@@ -1070,7 +1070,7 @@ button {
 
     position: absolute;
     position: fixed;
-    margin-top: 20%;
+    margin-top: 21%;
     margin-left: 1.5%;
     cursor: pointer;
 }

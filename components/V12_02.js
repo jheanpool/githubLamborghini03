@@ -35,7 +35,7 @@ export default function CenteredGrid() {
 
        </div>
 
-       <div className="flecha_der">
+       <div className="flecha_der_v12">
 
           <Link to="/V12_03">
 
@@ -47,7 +47,7 @@ export default function CenteredGrid() {
 
         </div>
 
-        <div className="flecha_izq">
+        <div className="flecha_izq_v12">
 
           <Link to="/V12_01">
 
