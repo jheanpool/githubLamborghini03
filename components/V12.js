@@ -10,9 +10,9 @@ import v12_02 from '../v12_galeria/v12_02.jpg';
 import v12_03 from '../v12_galeria/v12_03.jpg';
 import v12 from '../img_fondo/v12.jpg';
 import Grid from '@material-ui/core/Grid';
-import './App.css';
 import {BrowserRouter as Router,Switch,Route,Link,useParams,useRouteMatch} from "react-router-dom";
-
+import './App.css';
+import './New_V12.css';
 
 const useStyles = makeStyles((theme) => ({
   root: {

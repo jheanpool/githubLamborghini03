@@ -292,7 +292,7 @@ button{
 
 
 
-              @media screen and (max-width: 1024px) {
+                      @media screen and (max-width: 1024px) {
                                  .row, .navbar {
                             flex-direction: column;
                                  padding-top: 8%;
@@ -849,9 +849,9 @@ button {
     margin-left: 10px;
 }
 
-.imagen_tipos_lamborghini{
+.tipos_lamborghini{
 
-    margin-top: -25px;
+    margin-top: -5px;
    
 }
 

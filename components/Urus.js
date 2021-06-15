@@ -2,6 +2,7 @@ import React from 'react';
 import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';
 import urus from '../tipos_de_lamborghini/urus.jpg';
+import './Tipos_Lamborghini.css';
 
 const useStyles = makeStyles((theme) =>
   createStyles({
@@ -27,8 +28,8 @@ export default function CenteredGrid() {
 
 
         <Grid item xs={12} sm={12} md={12} lg={12}>
-          <br></br>
-          <div className="imagen_tipos_lamborghini">
+          
+          <div className="tipos_lamborghini">
 
             <img src={urus} alt="urus" height="102%" width="102%" />
 
