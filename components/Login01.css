@@ -7,15 +7,15 @@
 
 }
 
-.login{
-   margin-top: 1%;
-   margin-left: 100%;
-   align-content: center;
-    
-} 
+.login01 {
+    margin-top: 35%;
+    margin-left: 36%;
+    z-index: 1000;
+    position: absolute;
 
+}
 
-.img_login{
+.img_login {
 
     opacity: 100%;
     width: 1650px;
